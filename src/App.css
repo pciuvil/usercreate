@@ -1,0 +1,64 @@
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background-color: white;
+  color: rgba(37, 40, 44, 0.866);
+}
+
+img {
+  max-width: 100%;
+  max-height: 100%;
+  display: inline-block;
+  object-fit: contain;
+}
+
+ul {
+  list-style: none;
+}
+
+input,
+button {
+  cursor: pointer;
+  display: inline-block;
+  text-align: center;
+  font-family: inherit;
+}
+
+button {
+  border: none;
+  padding: 5px 20px;
+  border-radius: 5px;
+  transition: transform .5s;
+}
+
+button:hover {
+  transform: scale(1.1);
+  transition: transform .5s;
+}
+/* app */
+.app__header {
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.app__container {
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:space-evenly;
+  gap: 20px;
+}
+.app___btn {
+  background-color: rgba(6, 14, 223, 0.7);
+  color: white;
+}
